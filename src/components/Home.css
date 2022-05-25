@@ -1,3 +1,4 @@
+/*Esse .Home vem da className dentro do componente Home*/
 .Home {
   position: relative;
   background-image: radial-gradient(
@@ -11,4 +12,16 @@
   border-radius: 20px;
   color: black;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.Home__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 350px) {
+  .Home__container {
+    justify-content: unset;
+  }
 }

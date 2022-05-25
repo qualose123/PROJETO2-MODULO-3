@@ -6,9 +6,10 @@ console.log("paletas", paletas)
 function PaletaLista(){
     return(
         <div className="PaletaLista"> 
-        {paletas.map((paleta, index)=> {
+        {paletas.map((paleta, index)=> {  
             return (
-                <div key={index} className="PaletaListaItem">
+                <div key={index} className="PaletaListaItem"> 
+                {/*Essa key, atribui um identificador a cada elemento percorrido para todos não ficarem iguais*/}
                     <div>
                         <div className="PaletaListaItem__titulo">
                             {paleta.titulo}
@@ -25,7 +26,7 @@ function PaletaLista(){
                     </div>
                     <img
                         className="PaletaListaItem__foto"
-                        src={paleta.foto}
+                        src={paleta.foto} 
                         alt={`Paleta de ${paleta.sabor}`}
                     />
                 </div>
@@ -35,3 +36,4 @@ function PaletaLista(){
 }
 
 export default PaletaLista
+
