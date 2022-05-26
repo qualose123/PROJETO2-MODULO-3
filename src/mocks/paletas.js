@@ -1,7 +1,3 @@
-//dados mocados são dados que vamos consumir, a partir de um arquivo que nós mesmos iremos criar, ou seja, os arquivos abaixo, ainda não estão vndo de uma API
-
-//lembrando que tem q exportar a constante para se usar em outro lugar.
-// para não ter que ficar referenciando ./ para todos os itens, fazemos o import absolut. Criamos o arquivo jsconfig.json na raiz do projeto e colocamos a pasta src para ser incluída como a raíz do projeto, sendo assim os arquivos vão se referenciar, a partir dela.
 export const paletas = [
   {
     titulo: "Açaí com Leite Condensado",
