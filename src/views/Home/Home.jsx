@@ -1,6 +1,6 @@
 import "./Home.css"
-import PaletaLista from "./PaletaLista"
-import Navbar from "./Navbar"
+import PaletaLista from "components/PaletaLista/PaletaLista.jsx"
+import Navbar from "components/Navbar.jsx"
 import sacola from "assets/icons/sacola.svg"
 import logo from "assets/logo.svg"
 

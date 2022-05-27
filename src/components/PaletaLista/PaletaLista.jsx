@@ -1,6 +1,6 @@
 import React, {useState} from 'react' // importando o useState pra gerenciar o estado da nossa aplicação 
 import "./PaletaLista.css"
-import { paletas } from "../mocks/paletas"
+import { paletas } from "mocks/paletas.js"
 
 console.log("paletas", paletas)
 
@@ -33,31 +33,13 @@ function PaletaLista(){
 
     function removerItem(index){
         const initialValue = Number(paletaSelecionadas[index] || 0) 
-        // if(initialValue > 0){
-        //     const paleta = {
-        //         [index]: initialValue - 1
-        //     }
-        //     // Spread operator = espalhar => ...
-        //     setPaletaSelecionadas({...paletaSelecionadas, ...paleta})
-        // }
+       
         const paleta = {
             [index]: initialValue - 1
         }
         // Spread operator = espalhar => ...
         setPaletaSelecionadas({...paletaSelecionadas, ...paleta})
     }
-
-    // OPÇÃO TERNARIO 
-    // const badgeCounter = (canRender, index) => {
-    //     return (
-    //         <> 
-    //             {Boolean(canRender)
-    //                 ? <span className="PaletaListaItem__badge">{paletaSelecionadas[index]}</span>
-    //                 : null 
-    //             }
-    //         </>
-    //         )
-    // }
 
     const badgeCounter2 = (canRender, index) => {
         return (
