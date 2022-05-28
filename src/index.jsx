@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Home from "./views/Home/Home.jsx" // aki foi importado o componente Home
 import '../src/assets/styles/main.css'; //aki está importando o CSS 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( //aki está renderizando uma div com o ID 'root', e tudo o que for passado aki dentro será renderizado dentro da div 'root' que se encontra no index.html, ou seja, por ser de marcação será exibida no navegador ao renderizar.
   <React.StrictMode>

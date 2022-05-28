@@ -1,7 +1,7 @@
 // importando as imagens que fizemos download e salvando dentro uma variável
 // import sacola from "assets/icons/sacola.svg"
 // import logo from "assets/logo.svg"
-
+import "./Navbar.css"
 // function Navbar({logo, sacola}){
     function Navbar(props){
 
