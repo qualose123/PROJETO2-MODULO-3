@@ -48,8 +48,7 @@ function Navbar(props) {
       {/*BOTÃO DO SCROLL QUE APARECE AO MOVIMENTAR SCROLL*/}
       <button onClick={SubirTela} className="scrollbutton">
         UP
-      </button>
-      ;
+      </button>  ;
     </div>
   );
 }

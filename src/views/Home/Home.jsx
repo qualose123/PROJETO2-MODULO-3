@@ -13,6 +13,12 @@ function Home() {
       <div className="Home__container">
         <PaletaLista />
       </div>
+      <div className="Links">
+        <ul>
+          <li><a href="https://github.com/qualose123">GITHUB</a></li>
+          <li><a href="https://www.linkedin.com/in/raphael-johny-93a331213/">LinkedIn</a></li>
+        </ul>
+      </div>
     </div>
   );
 }

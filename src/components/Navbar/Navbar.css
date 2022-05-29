@@ -68,6 +68,7 @@ ADICIONADO QDO CRIAMOS A HEADER .Header {
   div.Animacao {
     width: 700px;
     margin-left: 4.5rem;
+    font-size: 20px;
   }
 }
 
@@ -77,6 +78,7 @@ ADICIONADO QDO CRIAMOS A HEADER .Header {
   }
   div.Animacao {
     margin-left: 1rem;
+    font-size: 20px;
   }
 }
 
@@ -85,6 +87,7 @@ ADICIONADO QDO CRIAMOS A HEADER .Header {
     margin-left: 2rem;
     width: 400px;
     margin: 0 auto;
+    font-size: 17px;
   }
 }
 
@@ -104,6 +107,7 @@ ADICIONADO QDO CRIAMOS A HEADER .Header {
   div.Animacao {
     margin-left: 1rem;
     width: 280px;
+    font-size: 12px;
   }
 }
 /*ESTILIZAÇÃO DO BOTÃO DE SUBIR SCROLL*/
@@ -171,7 +175,7 @@ ADICIONADO QDO CRIAMOS A HEADER .Header {
   transition: all 1s linear;
   content: "teste";
   font-family: Pacifico;
-  font-size: 15px;
+  font-size: 20px;
   animation-name: Animacao;
   animation-duration: 8s;
   animation-iteration-count: infinite;
