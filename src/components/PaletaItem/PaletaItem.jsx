@@ -19,7 +19,7 @@ function PaletaItem() {
   const badgeCounter = (canRender, index) => {
     return (
       <>
-        {/* SHORT-CIRCUIT */}
+    
         {Boolean(canRender) && (
           <span className="PaletaListaItem__badge">
             {paletaSelecionadas[index]}
@@ -32,7 +32,7 @@ function PaletaItem() {
   const removeButton = (canRender, index) => {
     return (
       <>
-        {/* SHORT-CIRCUIT */}
+       
         {Boolean(canRender) && (
           <button
             className="Acoes__remover "
