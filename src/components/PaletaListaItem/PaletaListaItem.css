@@ -71,6 +71,8 @@
 .Acoes__adicionar {
   background-color: darkviolet;
   margin: 0 auto;
+  max-width: 70%;
+  max-height: 95%;
 }
 
 .Acoes__adicionar--preencher {

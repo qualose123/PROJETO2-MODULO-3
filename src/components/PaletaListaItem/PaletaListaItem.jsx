@@ -1,5 +1,4 @@
 import "./PaletaListaItem.css";
-
 function PaletaListaItem({
   paleta,
   quantidadeSelecionada,

@@ -64,4 +64,5 @@ function PaletaLista(){
     )
 }
 
+
 export default PaletaLista
