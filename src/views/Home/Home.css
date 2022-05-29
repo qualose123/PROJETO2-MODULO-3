@@ -13,14 +13,13 @@
 
 /* ADICIONADO QDO CRIAMOS O COMPONENTE PALETALISTA */
 .Home__container {
-display: flex;
-align-items: center;
-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 350px) {
-.Home__container {
-  justify-content: unset;
+  .Home__container {
+    justify-content: unset;
+  }
 }
-}
-

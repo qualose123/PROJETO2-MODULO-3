@@ -11,15 +11,14 @@
 }
 
 @media (max-width: 400px) {
-  .PaletaListaItem{
+  .PaletaListaItem {
     width: 300px;
   }
 }
-@media (max-width:300px) {
-  .PaletaListaItem{
+@media (max-width: 300px) {
+  .PaletaListaItem {
     width: 200px;
   }
-
 }
 .PaletaListaItem > div {
   display: flex;

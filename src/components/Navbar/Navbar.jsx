@@ -1,11 +1,8 @@
-
 import "./Navbar.css";
 // function Navbar({logo, sacola})
-
 function Navbar(props) {
- 
   //FUNÇÃO PARA SUBIR O SCROLL
-    const SubirTela = () => {
+  const SubirTela = () => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
@@ -13,17 +10,16 @@ function Navbar(props) {
   };
 
   //FUNÇÃO PARA APARECER O SCROLL SOMENTE QUANDO BAIXAR O SCROLL
-  function descerscroll(){
-    if(window.scrollY===0){
-      document.querySelector('.scrollbutton').style.display='none'
-    }else{
-      document.querySelector('.scrollbutton').style.display='block'
+  function descerscroll() {
+    if (window.scrollY === 0) {
+      document.querySelector(".scrollbutton").style.display = "none";
+    } else {
+      document.querySelector(".scrollbutton").style.display = "block";
     }
   }
- window.addEventListener('scroll',descerscroll)
-
+  window.addEventListener("scroll", descerscroll);
+  //INORMAÇÇÕES DA NAVBAR:
   const { logo, sacola } = props;
-
   return (
     <div className="Home__header Header">
       <div className="row">
@@ -47,6 +43,9 @@ function Navbar(props) {
           </div>
         </div>
       </div>
+      {/*DIV PARA EXIBIR MENSAGEM INICIAL NA TELA*/}
+      <div className="Animacao"> ESCOLHA--SEU--SABOR--FAVORITO!</div>
+      {/*BOTÃO DO SCROLL QUE APARECE AO MOVIMENTAR SCROLL*/}
       <button onClick={SubirTela} className="scrollbutton">
         UP
       </button>
